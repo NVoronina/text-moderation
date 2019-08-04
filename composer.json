@@ -1,0 +1,28 @@
+{
+  "name": "text-moderation/text-moderation",
+  "type": "library",
+  "description": "Library for moderate text for censor.",
+  "keywords": ["censor", "moderate"],
+  "homepage": "https://github.com/nvoronina/text-moderation/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Natalia Voronina",
+      "email": "nvoronina.dev@gmail.com",
+      "homepage": "https://github.com/nvoronina"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Moderation\\": "src/",
+      "Moderation\\Store\\": "src/Store/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0"
+  }
+}
